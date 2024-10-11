@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         gestureManager.addGestureRecognizer(to: button, target: self, action: #selector(handleLongPress(_:)))
     }
     
