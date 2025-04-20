@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         view.addSubview(button)
         button.snp.makeConstraints { make in
             make.bottom.equalToSuperview().offset(-40)
-            make.height.equalTo(30)
+            make.height.equalTo(80)
             make.leading.equalToSuperview().offset(20)
             make.trailing.equalToSuperview().offset(-20)
         }
